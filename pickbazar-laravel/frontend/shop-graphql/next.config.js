@@ -18,8 +18,7 @@ module.exports = withPWA({
       },
     ];
   },
-  basePath:'/admin',
-  images: {
+   images: {
     domains: [
        "printpe.com",
       "googleusercontent.com",
