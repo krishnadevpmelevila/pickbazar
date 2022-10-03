@@ -9,9 +9,10 @@ module.exports = withPWA({
     dest: "public",
     runtimeCaching,
   },
-
+  basePath:'/admin',
   images: {
     domains: [
+      "printpe.com",
       "via.placeholder.com",
       "res.cloudinary.com",
       "s3.amazonaws.com",
